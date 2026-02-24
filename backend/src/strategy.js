@@ -649,6 +649,8 @@ function scanAllSymbols(klinesData, tickersData, scanHistory = []) {
           rrr,
           rating,
           score: degradation.adjustedScore,
+          status: 'ACTIVE',
+          status_desc: '信号活跃中',
           choch,
           fvg: relevantFVG,
           sweep,
